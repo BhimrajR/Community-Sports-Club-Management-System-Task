@@ -1,0 +1,15 @@
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.AssemblyInfoInputs.cache
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.AssemblyInfo.cs
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.csproj.CoreCompileInputs.cache
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.sourcelink.json
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/bin/Debug/net8.0/Community Sports Club Management System
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/bin/Debug/net8.0/Community Sports Club Management System.deps.json
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/bin/Debug/net8.0/Community Sports Club Management System.runtimeconfig.json
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/bin/Debug/net8.0/Community Sports Club Management System.dll
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/bin/Debug/net8.0/Community Sports Club Management System.pdb
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.dll
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/refint/Community Sports Club Management System.dll
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.pdb
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/Community Sports Club Management System.genruntimeconfig.cache
+/workspaces/Community-Sports-Club-Management-System-Task/Community Sports Club Management System/obj/Debug/net8.0/ref/Community Sports Club Management System.dll
