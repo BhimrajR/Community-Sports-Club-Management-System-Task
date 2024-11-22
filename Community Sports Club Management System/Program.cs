@@ -75,6 +75,8 @@ public class Coach : Person
     public int salary;
     public List<Member> mentees = new List<Member>();
 
+    public List<Coach> mentorshipGroup = new List<Coach>();
+
     public void SetCoachDetails(string coachID, string specialisation, int salary)
     {
         this.coachID = coachID;
@@ -88,9 +90,20 @@ public class Coach : Person
         Console.WriteLine($"Coach {name} is now mentoring {mentee.name} in {mentee.sport}.");
     }
 
-    public List<Member> GetMentees()
+    public List<string> GetMentees()
     {
-        return mentees;
+        return mentees.Select(x => $"{x.name}: {x.sport}").ToList();
+    }
+
+    public void MentorCoach(Coach menteeCoach)
+    {
+        if (!mentorshipGroup.Contains(menteeCoach)) mentorshipGroup.Add(menteeCoach);
+        Console.WriteLine($"Coach {name} is now mentoring Coach {menteeCoach.name} in {menteeCoach.specialisation}");
+    }
+
+    public List<string> GetMentorshipGroup()
+    {
+        return mentorshipGroup.Select(x => $"{x.name}: {x.specialisation}").ToList();
     }
 
     public void IncreaseSalary(float percentage)
@@ -164,8 +177,11 @@ public class Program
         coach1.AssignMentee(member1);
         coach1.AssignMentee(member2);
         coach2.AssignMentee(member2);
+        coach2.MentorCoach(coach1);
 
         Console.WriteLine(string.Join(", ", coach1.GetMentees()));
+        Console.WriteLine(string.Join(", ", coach2.GetMentees()));
+        Console.WriteLine(string.Join(", ", coach2.GetMentorshipGroup()));
 
         coach2.IncreaseSalary(20);
         Console.WriteLine(coach1.GetCoachSummary());
